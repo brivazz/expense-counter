@@ -1,0 +1,56 @@
+{
+    "id": "6799932630698705893",
+    "from": {
+        "id": 1583232691,
+        "is_bot": false,
+        "first_name": "Сергей",
+        "last_name": "Анатольевич",
+        "username": "Sergey_Anatolev",
+        "language_code": "ru"
+    },
+    "message": {
+        "message_id": 1001,
+        "from": {
+            "id": 5056885071,
+            "is_bot": true,
+            "first_name": "Чикипибарум",
+            "username": "chkpbarumbot"
+        },
+        "chat": {
+            "id": 1583232691,
+            "first_name": "Сергей",
+            "last_name": "Анатольевич",
+            "username": "Sergey_Anatolev",
+            "type": "private"
+        },
+        "date": 1653412771,
+        "edit_date": 1653412773,
+        "text": "Продукты",
+        "reply_markup": {
+            "inline_keyboard": [
+                [
+                    {
+                        "text": "+",
+                        "callback_data": "plus"
+                    },
+                    {
+                        "text": "100",
+                        "callback_data": "100"
+                    },
+                    {
+                        "text": "-",
+                        "callback_data": "minus"
+                    }
+                ],
+                [
+                    {
+                        "text": "Записать",
+                        "callback_data": "save_amount"
+                    }
+                ]
+            ]
+        }
+    },
+    "chat_instance": "7714075928912392476",
+    "data": "save_amount"
+}
